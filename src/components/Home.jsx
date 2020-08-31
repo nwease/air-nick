@@ -5,7 +5,6 @@ import Banner from './Banner';
 const Home = () => {
     return (
         <div className='home'>
-            HOME
             <Banner />
         </div>
     );
