@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/Banner.css';
+import { Button } from '@material-ui/core';
 
 const Banner = () => {
     return (
@@ -12,6 +13,10 @@ const Banner = () => {
                 <h5>
                     Plan a different kind of getaway to uncover the hidden gems near you.
                 </h5>
+
+                <Button variant='outlined'>
+                    Explore Nearby
+                </Button>
             </div>
         </div>
     );

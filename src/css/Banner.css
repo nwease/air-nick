@@ -5,5 +5,16 @@
 }
 
 .banner__information {
+    background-color: black;
+    color: #ffffff;
+    padding: 25vh 50px 40px;
+    width: 300px;
+}
 
+.banner__information > button {
+    background-color: #ff7779;
+    color: #ffffff;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
 }
