@@ -37,13 +37,23 @@ const SearchPage = () => {
             </div>
 
             <SearchResult
-                img='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU'
-                    location='Private room in center of London'
-                    title='Stay at this spacious Edwardian house'
-                    description='1 guest - 1 bedroom - 1 bed - 1.5 shared bathrooms - wifi - kitchen - Free parking - Washing machine'
-                    star={4.73}
-                    price='$30 / night'
-                    total='$117 total'
+                img='https://www.thewealthlist.com/wp-content/uploads/2018/12/Aspen-Colorado-700-x-468.jpg'
+                location='Private room in center of London'
+                title='Stay in this spacious man pad room'
+                description='1 guest - 1 bedroom - 1 bed - 1.5 shared bathrooms - wifi - kitchen - Free parking - Washing machine'
+                star={5.93}
+                price='$30 / night'
+                total='$117 total'
+            />
+
+            <SearchResult
+                img='https://www.thewealthlist.com/wp-content/uploads/2018/12/Aspen-Colorado-700-x-468.jpg'
+                location='Private room in center of London'
+                title='Stay at this spacious Edwardian house'
+                description='1 guest - 1 bedroom - 1 bed - 1.5 shared bathrooms - wifi - kitchen - Free parking - Washing machine'
+                star={8.43}
+                price='$30 / night'
+                total='$117 total'
             />
         </div>
     );
