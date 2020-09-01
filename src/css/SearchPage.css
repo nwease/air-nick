@@ -3,13 +3,21 @@
 }
 
 .searchPage__information {
-
+    padding: 20px;
 }
 
 .searchPage__information > p {
-
+    margin-bottom: 10px;
+    font-size: 14px;
 }
 
 .searchPage__information > h1 {
+    margin-bottom: 30px;
+}
 
+.searchPage__information > button {
+    border-radius: 30px;
+    text-transform: inherit;
+    margin: 5px;
+    color: #ff7779;
 }
