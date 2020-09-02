@@ -3,8 +3,8 @@ import '../css/Header.css';
 import SearchIcon from '@material-ui/icons/Search';
 import LanguageIcon from '@material-ui/icons/Language';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import { Avatar } from '@material-ui/core';
-import { Link } from 'react-router-dom';
+import {Avatar} from '@material-ui/core';
+import {Link} from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -19,7 +19,7 @@ const Header = () => {
 
             <div className='header__center'>
                 <input type='text'/>
-                <SearchIcon />
+                <SearchIcon/>
             </div>
 
             <div className='header__right'>
@@ -27,9 +27,9 @@ const Header = () => {
                     Become a host
                 </p>
 
-                <LanguageIcon />
-                <ExpandMoreIcon />
-                <Avatar />
+                <LanguageIcon/>
+                <ExpandMoreIcon/>
+                <Avatar/>
             </div>
         </div>
     );

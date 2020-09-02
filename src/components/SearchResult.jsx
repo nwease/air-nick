@@ -8,7 +8,7 @@ const SearchResult = ({img, location, title, description, star, price, total}) =
         <div className='searchResult'>
             <img src={img} alt=''/>
 
-            <FavoriteBorderIcon className='searchResult__heart' />
+            <FavoriteBorderIcon className='searchResult__heart'/>
 
             <div className='searchResult__information'>
                 <div className='searchResult__informationTop'>
@@ -32,7 +32,7 @@ const SearchResult = ({img, location, title, description, star, price, total}) =
                 <div className='searchResult__informationBottom'>
                     <div className='searchResult__stars'>
 
-                        <StarIcon className='searchResult__star' />
+                        <StarIcon className='searchResult__star'/>
 
                         <p>
                             <strong>

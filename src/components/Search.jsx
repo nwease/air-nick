@@ -1,13 +1,15 @@
 import React, {useState} from 'react';
 import '../css/Search.css';
-import { DateRangePicker } from 'react-date-range';
+import {DateRangePicker} from 'react-date-range';
 import 'react-date-range/dist/styles.css'; // main style file
 import 'react-date-range/dist/theme/default.css'; // theme css file
 import PeopleIcon from '@material-ui/icons/People';
-import { Button } from '@material-ui/core';
+import {Button} from '@material-ui/core';
+import {useHistory} from 'react-router-dom';
 
 const Search = () => {
 
+    const history = useHistory();
     const [startDate, setStartDate] = useState(new Date());
     const [endDate, setEndDate] = useState(new Date());
 
@@ -31,7 +33,7 @@ const Search = () => {
 
             <h2>
                 Number of guests
-                <PeopleIcon />
+                <PeopleIcon/>
             </h2>
 
             <input
@@ -40,7 +42,7 @@ const Search = () => {
                 type='number'
             />
 
-            <Button>
+            <Button onClick={() => history.push('/search')}>
                 Search AirBnb
             </Button>
         </div>
